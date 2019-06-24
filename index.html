@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Elijah Logan</title>
+</head>
+<body>
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Elijah Logan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Portfolio</a>
+            <a class="nav-item nav-link" href="#">Albums</a>
+          </div>
+        </div>
+</nav>
+<!-- Name -->
+<h1>Elijah Logan</h1>
+<!-- Image Slider -->
+<div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="img/client.jpg" style="width:100%">
+          <div class="text">Elijah Logan</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="img/microphone.jpg" style="width:100%">
+          <div class="text">Musician</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="img/code.jpg" style="width:100%">
+          <div class="text">Programmer</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="img/activism.jpg" style="width:100%">
+            <div class="text">Activist</div>
+        </div>
+</div>
+
+<!-- Accordion Menu -->
+<button class="accordion">Programming</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Music</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Leadership skills</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<!-- Conditional Form Handling -->
+<h2>Let's Connect!</h2>
+<form action="/action_page.php" method="post">
+    Name: <input type="text" name="fname" required>
+    <input type="submit" value="Submit">
+</form>
+<form action="/action_page.php" method="post">
+    Email: <input type="text" name="email" required>
+    <input type="submit" value="Submit">
+</form>
+
+<!-- Dynamic HTML from Javascript Object -->
+<!-- To center button, cannot do in CSS #myButton {text-align:center} -->
+<!-- Need to wrap button in div, and then apply in CSS .center-myButton {text-align:center} -->
+<div class="center-myButton"> 
+    <input type="button" value="Click here to connect to Elijah Logan" id="myButton"></input> 
+</div>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
